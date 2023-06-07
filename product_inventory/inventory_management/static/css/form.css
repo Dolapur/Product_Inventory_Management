@@ -1,0 +1,67 @@
+  /* Style the form */
+  form {
+    margin-top: 30px;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 10px; /* Add line spacing */
+    font-weight: bold;
+  }
+  
+  /* Style the form input and textarea */
+  input {
+    flex: 0.5;
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 60px;
+  }
+
+  input[type="Number"] {
+    margin-left: 65px;
+  }
+
+  textarea {
+    flex: 0.5;
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 18px;
+  }
+  
+  /* Style the form submit button */
+  button[type="submit"] {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  /* Style the form submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #000;
+  }
+  
+  
+  /* Responsive styles for small devices */
+  @media (max-width: 576px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
