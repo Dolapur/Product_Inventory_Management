@@ -21,7 +21,7 @@ Product Inventory Management is a Django web application that allows users to ma
 
   $ git clone https://github.com/Dolapur/Product_Inventory_Management.git
 
-  $ cd product-inventory-management
+  $ cd Product_Inventory_Management
 
 - Set up a virtual environment (optional but recommended):
   $ python3 -m venv env
